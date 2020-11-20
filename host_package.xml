@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="git@gitlab.devtools.intel.com:29418/kmb_integration"
+           alias="origin"
+           fetch="ssh://git@gitlab.devtools.intel.com:29418/kmb_integration" />
+  <remote  name="git@gitlab.devtools.intel.com:29418/OWR/IoTG/ESE/Linux-Integration/KMB"
+           alias="origin"
+           fetch="ssh://git@gitlab.devtools.intel.com:29418/OWR/IoTG/ESE/Linux-Integration/KMB" />
+  <remote  name="git@gitlab.devtools.intel.com:29418/hspe_csw/bsp/private"
+           alias="origin"
+           fetch="ssh://git@gitlab.devtools.intel.com:29418/hspe_csw/bsp/private" />
+  <project name="kmb_nvr_build"
+           remote="git@gitlab.devtools.intel.com:29418/kmb_integration"
+	       path="kmb_nvr_build"
+           revision="refs/heads/develop"
+           upstream="refs/heads/develop"
+           groups="notdefault,internal" >
+  </project>
+  <project name="xlink-pcie-deb-packaging-script"
+           remote="git@gitlab.devtools.intel.com:29418/OWR/IoTG/ESE/Linux-Integration/KMB"
+               path="xlink-pcie-deb-packaging-script"
+           revision="refs/heads/master"
+           upstream="refs/heads/master"
+           groups="notdefault,internal" >
+  </project>
+  <project name="vpual-mvd"
+           remote="git@gitlab.devtools.intel.com:29418/hspe_csw/bsp/private"
+               path="vpual-mvd"
+           revision="refs/heads/master"
+           upstream="refs/heads/master"
+           groups="notdefault,internal" >
+  </project>
+  <project name="remote_host_transfer_layer"
+           remote="git@gitlab.devtools.intel.com:29418/kmb_integration"
+               path="remote_host_transfer_layer"
+           revision="refs/heads/dev/bybx/remote_host_transfer_layer"
+           upstream="refs/heads/dev/bybx/remote_host_transfer_layer"
+           groups="notdefault,internal" >
+  </project>
+  <project name="hddl-deb-packaging-script"
+           remote="git@gitlab.devtools.intel.com:29418/OWR/IoTG/ESE/Linux-Integration/KMB"
+               path="hddl-deb-packaging-script"
+           revision="refs/heads/master"
+           upstream="refs/heads/master"
+           groups="notdefault,internal" >
+  </project>
+
+</manifest>
